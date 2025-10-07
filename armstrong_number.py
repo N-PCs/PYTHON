@@ -1,13 +1,4 @@
 # Q1 write a program to print all armstrong number between 100 to 999
-# Q2 write a program to print following
-               #*****
-               #****
-               #***
-               #**
-               #*
-# Q3 write a program to convert one decimal number to binary number without using bin function
-
-#SOLUTIONS
 
 #Q1 ans.
 for n in range(100,1000):
@@ -19,6 +10,12 @@ for n in range(100,1000):
         print(n)
 
 
+# Q2 write a program to print following
+               #*****
+               #****
+               #***
+               #**
+               #*
 # Q2 ans
 n=int(input("enter the number--> "))
 for i in range(n,0,- 1):
@@ -29,7 +26,8 @@ n=int(input("enter the number--> "))
 for i in range(0,n+1):
     print('*'*(n-i)
 
-
+          
+# Q3 write a program to convert one decimal number to binary number without using bin function
 # Q3 ANS
 def dtob(number):
   binary_string = ""
@@ -44,6 +42,7 @@ binary_num = dtob(decimal_num)
 print("Binary equivalent:", binary_num)
 
 # this program can be written by recursive function also
+
 
 
 
