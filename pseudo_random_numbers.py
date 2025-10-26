@@ -3,6 +3,7 @@
 
 import random
 print(random.randint(10,100))
+
 #generates random integers between the arguments provided to it
 print(random.randrange(10))
 print(random.randrange(10,20))
@@ -47,4 +48,5 @@ print(l1)
 
 '''generate 10 random numbers between 1 to 100 and sort them in ascending order 
 and search if 50 is in the array using binary search'''
+
 
