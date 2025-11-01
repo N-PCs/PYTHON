@@ -10,7 +10,6 @@ print(len(p))
 print(p)
 
 # Concatenation => Method in which multiple strings are combined and printed.
-
 a="N-PCs"
 b="Gonna rule this world "
 c=a+" a.k.a Neel "+b+"!"    #multiple strings added
@@ -38,5 +37,6 @@ print(d[:5]+d[5:])  #Combining slices of string
 
 
 #Slice => Portion of string that contains more than one character;a.k.a substring.
+
 
 
