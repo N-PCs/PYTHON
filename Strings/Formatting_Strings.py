@@ -5,7 +5,6 @@ print("Hello {}, your lucky number is {}".format(name,number))
 #This is the best way to print a string.
 #Curly brackets placeholder show where the variables should be written.
 #We then pass the variables as a parameter to the format method.
-
 print("Your lucky number is {number}, {name}. ".format(name=name,number=len(name)*3))
 #Here we are defining the conditions inside parentheses of .format
 
@@ -65,6 +64,7 @@ total=subtotal+tax_amt
 print("Subtotal:  ${:10,.2f}".format(subtotal))
 print("Sales Tax: ${:10,.2f}".format(tax_amt))
 print("Total: ${:10,.2f}".format(total))
+
 
 
 
