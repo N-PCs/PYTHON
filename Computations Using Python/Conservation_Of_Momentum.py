@@ -18,8 +18,9 @@ def conservation_of_momentum(masses, velocities):
 
 
 # Example usage
-masses = [2.0, 3.0, 1.5]  # Masses of the particles in kg
+masses = [20, 30, 15]  # Masses of the particles in kg
 velocities = [3.0, -1.0, 2.0]  # Initial velocities of the particles in m/s
 
 final_velocities = conservation_of_momentum(masses, velocities)
 print("Final velocities of the particles:\n", final_velocities)
+
